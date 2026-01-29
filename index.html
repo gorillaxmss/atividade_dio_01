@@ -2,46 +2,78 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Exemplo de Tags HTML</title>
+    <title>Atividade DIO 01</title>
 </head>
 <body>
 
-    <!-- Títulos -->
-    <h1>Título Principal (h1)</h1>
-    <h2>Subtítulo (h2)</h2>
-    <h3>Título nível 3 (h3)</h3>
-    <h4>Título nível 4 (h4)</h4>
-    <h5>Título nível 5 (h5)</h5>
-    <h6>Título nível 6 (h6)</h6>
+    <!-- Títulos e Parágrafos -->
+
+    <h1>Atividade DIO 01</h1>
+    <h2>Introdução</h2>
+        <p>Atualmente, a internet faz parte do nosso dia a dia, e por trás de todos os sites que acessamos existe uma linguagem chamada HTML.
+HTML significa HyperText Markup Language e é usada para estruturar o conteúdo das páginas da web, como textos, títulos, listas e links.</p>
+        <p>Neste trabalho, vou explicar algumas tags básicas do HTML, mostrando para que servem e dando exemplos simples para facilitar o entendimento.</p>
+    
+    <hr>
+
+        <h2>Títulos no HTML (h1 até h6)</h2>
+        <p>As tags "< h1> até < h6>" são usadas para criar títulos e subtítulos em uma página.
+O < h1> é o título principal, enquanto o < h6> é o menor e menos importante.
+Essas tags ajudam a organizar o conteúdo e facilitam a leitura.</p>
+        <p>Exemplos:</p>
+        <h1> h1 Título Principal</h1>
+        <h2> h2 Subtítulo</h2>
+        <h3> h3 Outro título</h3>
 
     <hr>
 
-    <!-- Parágrafo e formatações -->
-    <p>
-        Este é um <strong>parágrafo</strong> com várias formatações:
-        <i>itálico</i>,
-        <u>sublinhado</u>,
-        <mark>texto destacado</mark>,
-        <small>texto pequeno</small>.
-    </p>
+        <h2>Parágrafo (< p>)</h2>
+        <p>A tag < p> serve para escrever parágrafos de texto, como este que estamos lendo agora.
+Ela organiza o conteúdo e deixa a página mais fácil de entender.</p>
 
+    <!-- Formatações -->
+    <hr>
+    <h2>Formatação de Texto</h2>
     <p>
-        Texto antigo <del>removido</del> e texto novo adicionado.
+        O HTML possui várias tags que ajudam a destacar partes do texto:
     </p>
-
+<ul>
+    <li>< strong> deixa o texto em negrito, mostrando importância</li>
+    <li>< i> deixa o texto em itálico</li>
+    <li>< u> sublinha o texto</li>
+    <li>< mark> destaca o texto</li>
+    <li>< small> diminui o tamanho do texto</li>
+    <li>< del> risca o texto, indicando algo removido</li>
+</ul>
     <p>
-        Exemplo de fonte antiga:
-        <font color="blue" size="4">Texto usando a tag font</font>
-    </p>
-
-    <!-- Abreviação -->
-    <p>
-        Estou estudando <abbr title="HyperText Markup Language">HTML</abbr>.
+        Exemplo:
+       <br>Texto <strong>importante</strong>,
+    <br><i>em itálico</i>,
+    <br><u>sublinhado</u>,
+    <br><mark>destacado</mark>,
+    <br><small>menor</small>
+    <br>e <del>removido</del>.
     </p>
 
     <hr>
-
     <!-- Listas -->
+    <h2>A tag < font></h2>
+    <p>
+       A tag <font> era usada antigamente para mudar a cor e o tamanho do texto.
+    <br>Hoje em dia, ela não é mais recomendada, mas ainda aparece em alguns códigos antigos ou em atividades escolares.
+    <br>Exemplo:
+        <font color="blue">Texto azul</font>
+    </p>
+    <hr>
+    <h2>Listas (< ol>, < ul> e < li>)</h2>
+    <p>As listas servem para organizar informações:
+        <ul>
+            <li>< ol> cria listas numeradas</li>
+            <li>< ul> cria listas com marcadores</li>
+            <li>< li> representa cada item da lista</li>
+        </ul>
+    </p>
+
     <h3>Lista Ordenada</h3>
     <ol>
         <li>Primeiro item</li>
@@ -58,7 +90,32 @@
 
     <hr>
 
+    <h2>Links (< a>)</h2>
+    <p>A tag <a> permite criar links, que levam o usuário para outros sites ou páginas.
+<br>Exemplo:</p>
+    <p>
+        <a href="https://www.dio.me">Site para aprender tudo sobre tecnologia</a>
+
+        </a>
+    </p>
+
+    <hr>
+
+    <h2>Linha Horizontal (< hr>)</h2>
+    <p>A tag < hr> cria uma linha que serve para separar partes do conteúdo, deixando a página mais organizada.</p>
+    
+    <hr>
+
     <!-- Subscrito e sobrescrito -->
+    <h2>Subscrito e Sobrescrito (< sub> e < sup>)</h2>
+    <p>Essas tags são muito usadas em fórmulas:
+        <ul>
+
+            <li>< sub> coloca o texto para baixo</li>
+            <li>< sup> coloca o texto para cima</li>
+
+        </ul>
+    </p>
     <p>
         Fórmula da água: H<sub>2</sub>O
     </p>
@@ -70,19 +127,25 @@
     <hr>
 
     <!-- Citação -->
+    <h2>Citação (< blockquote>)</h2>
+    <p>A tag < blockquote> é usada quando queremos colocar uma citação maior dentro do texto.</p>
     <blockquote>
         "A tecnologia move o mundo." – Steve Jobs
     </blockquote>
 
     <hr>
 
-    <!-- Link -->
+    <h2>Abreviação (< abbr>)</h2>
+    <p>A tag < abbr> serve para explicar siglas. Quando o mouse passa por cima, aparece o significado.<br>Exemplo:</p>
+    <abbr title="HyperText Markup Language">HTML</abbr>
+
+    <hr>
+
+    <h2>Conclusão</h2>
     <p>
-        Acesse o site do
-        <a href="https://www.w3schools.com" target="_blank">
-            W3Schools
-        </a>
-        para aprender mais HTML.
+        Com esse trabalho, foi possível entender que o HTML é essencial para a criação de sites.
+<br>Mesmo com tags simples, já é possível organizar textos, criar listas, links e melhorar a apresentação do conteúdo.
+<br>Aprender HTML é um passo importante para quem quer entender melhor como a internet funciona.
     </p>
 
 </body>
